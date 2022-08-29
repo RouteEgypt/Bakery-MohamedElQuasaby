@@ -1,0 +1,289 @@
+body {
+    margin: 0;
+    line-height: 1.38em;
+}
+
+h1,
+h2,
+h3 {
+    font-weight: 200;
+}
+
+h2,
+h3 {
+    color: black;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+p {
+    font-size: 18px;
+}
+
+.contaner {
+    width: 90%;
+    margin: 0 auto;
+    padding-bottom: 80px;
+    padding-top: 80px;
+}
+
+.header {
+    text-align: center;
+    color: aliceblue;
+    background-image: url("../images/drew-coffman-1872.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 100vh;
+    background-attachment: fixed;
+}
+
+.logo {
+    width: 25%;
+    float: left;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.logo img {
+    width: 60%;
+}
+
+.navContent {
+    width: 75%;
+    float: right;
+    text-align: right;
+    margin-top: 15px;
+}
+
+.navContent span {
+    font-size: 20;
+    margin-right: 3.5%;
+    vertical-align: middle;
+}
+
+.welcome {
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 150px;
+    margin-bottom: 100px;
+    height: 100vh;
+}
+
+.welcome h1 {
+    font-weight: 200;
+    font-size: 70;
+}
+
+.welcome p {
+    margin-top: 30px;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 1.38em;
+
+}
+
+.welcome button {
+    font-size: 15px;
+    font-weight: 700;
+    color: aliceblue;
+    width: 100;
+    height: 40;
+    background: none;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 10;
+    border-color: aliceblue;
+    border-style: double;
+    border-radius: 5%;
+}
+
+.vue {
+    float: left;
+    width: 50%;
+    text-align: center;
+    margin-block: inherit;
+}
+
+.vue img {
+    width: 90%;
+    border-radius: 3%;
+    margin: auto;
+}
+
+.discription {
+    float: left;
+    width: 50%;
+    text-align: left;
+    margin: auto;
+    margin-block: inherit;
+}
+
+.discription img {
+    width: 45px;
+    vertical-align: middle;
+}
+
+.discription p {
+    font-size: 16px;
+    line-height: 1.86em;
+    font-weight: 400;
+    color: #686868;
+}
+
+.whoWeAre .discription h2,
+.whoWeAre .discription p {
+    margin-left: 40px;
+}
+
+.discription li {
+    margin-top: 20px;
+    font-weight: 400;
+    color: #686868;
+}
+
+.discription li span {
+    margin-left: 13px;
+}
+
+.Location,
+.Information {
+    background-color: #f8f8f8;
+}
+
+
+.Baking {
+    text-align: center;
+    font-weight: 400;
+    line-height: 1.38em;
+    color: #686868;
+}
+
+.Baking h2 {
+    font-size: 40px;
+}
+
+.Baking p {
+    line-height: 1.80em;
+
+}
+
+.Baking-typ {
+    width: 33.333%;
+    float: left;
+}
+
+.Baking-typ img {
+    width: 90%;
+    border-radius: 2%;
+}
+
+.ba-txt {
+    width: 90%;
+    margin: auto;
+}
+
+.footer {
+    color: #969696;
+    font-size: 16px;
+    background-color: #353330;
+    line-height: 1.38em;
+
+
+}
+
+.footer h3 {
+    color: azure;
+}
+
+.info {
+    background-color: #403d38;
+}
+
+.about {
+    line-height: 1.9em;
+
+}
+
+.about,
+.special,
+.Hours,
+.Details {
+    width: 25%;
+    float: left;
+    margin-block: inherit;
+}
+
+.cont {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.cont h3 {
+    font-size: 20px;
+}
+
+.cont li a {
+    text-decoration-line: none;
+}
+
+.cont li img {
+    width: 10%;
+    vertical-align: middle;
+}
+
+.footer ul {
+    padding: 0;
+    margin: 0;
+}
+
+.footer .info li {
+    padding-bottom: 13px;
+    padding-top: 13px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.info a {
+    color: #A9A9A9;
+    ;
+}
+
+.footer .info ul :last-child {
+    border: 0;
+}
+
+.Details ul {
+    background-image: url("../images/contact-details-map.png");
+    background-size: 100% 50%;
+    background-position: center center;
+    background-repeat: no-repeat;
+
+
+
+}
+
+.Copyright {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
+
+.Copyright a {
+    margin-top: 10px;
+    width: 6%;
+    display: inline-block;
+}
+
+.Copyright a img {
+    width: 50%;
+    border-radius: 20%;
+}
+
+.clr {
+    clear: both;
+}
